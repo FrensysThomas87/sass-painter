@@ -191,13 +191,13 @@ header .lower-header li i {
   margin-top: 15px;
 }
 #simple-digital-art .introbg {
-  width: 1200px;
+  width: 1300px;
   height: 600px;
   margin: 60px auto;
-  background-image: url("../img/intro-bg.jpg");
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("../img/intro-bg.jpg");
 }
 #simple-digital-art .introbg .player {
   width: 200px;
@@ -220,4 +220,33 @@ header .lower-header li i {
 }
 #simple-digital-art .introbg .player > i:hover {
   color: #fff;
+}
+#simple-digital-art .flow-icons-container {
+  width: 1300px;
+  height: 600px;
+  margin: 60px auto;
+  background-repeat: no-repeat;
+  background-size: 100% 80%;
+  background-image: url("../img/flow-icons-bg.png");
+  display: flex;
+  justify-content: space-between;
+}
+#simple-digital-art .flow-icons-container .flow-icon {
+  width: 500px;
+  height: 700px;
+  margin-top: 80px;
+}
+#simple-digital-art .flow-icons-container .flow-icon > img {
+  width: 250px;
+}
+#simple-digital-art .flow-icons-container .flow-icon h3 {
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 70px;
+}
+#simple-digital-art .flow-icons-container .flow-icon p {
+  font-size: 20px;
+}
+#simple-digital-art .flow-icons-container .flow-icon p > a {
+  color: #000;
 }
