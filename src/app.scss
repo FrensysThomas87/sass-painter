@@ -14,6 +14,12 @@
 
 }
 
+@mixin centerAbsolute{
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -280,6 +286,31 @@ body {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        position: relative;
+
+        .player{
+          width: 200px;
+          height: 200px;
+          border-radius: $radius50;
+          background-color: rgba(0,0,0,0.5);
+          position: relative;
+          @include centerAbsolute;
+
+          >i{
+            position: absolute;
+            @include centerAbsolute;
+            font-size: 100px;
+            color: $fuxiaPlay;
+            cursor: $cursPointer;
+
+            &:hover{
+              color: #fff;
+            }
+
+          }
+
+        }
+
       }
     }
     //end simple digital art
