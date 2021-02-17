@@ -176,3 +176,17 @@ header .lower-header li i {
   color: #000;
   cursor: pointer;
 }
+
+#simple-digital-art {
+  height: 700px;
+  text-align: center;
+  margin-top: 70px;
+}
+#simple-digital-art h2 {
+  font-size: 38px;
+  font-weight: bold;
+}
+#simple-digital-art p {
+  font-size: 18px;
+  margin-top: 15px;
+}
