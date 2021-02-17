@@ -1,5 +1,27 @@
+
+@import 'colors';
+@import 'variables';
+
+@mixin container{
+  width: 1200px;
+  min-width: 1200px;
+  margin: 0 auto;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body {
     font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 14px;
     line-height: 1.5;
+}
+
+header{
+  height: 95px;
+  background-color: $headerColor;
 }
