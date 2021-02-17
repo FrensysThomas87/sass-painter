@@ -57,7 +57,7 @@ body {
       height: 22px;
       width: 481px;
       float: $float-r;
-      margin-top:-35px;
+      // margin-top:-35px;
 
       li{
         @include headerLi;
@@ -87,7 +87,7 @@ body {
 
       select{
         vertical-align: top;
-
+        // float: $float-r;
         margin-left: 445px;
         margin-top: -19px;
       }
@@ -97,8 +97,8 @@ body {
     //Lower header
     .lower-header{
       height: 50px;
-      margin-top: 35px;
-
+      margin-top: 20px;
+      float:$float-l;
 
 
       & img{
@@ -286,7 +286,7 @@ body {
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        position: relative;
+
 
         .player{
           width: 200px;

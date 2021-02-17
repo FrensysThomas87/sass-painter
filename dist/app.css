@@ -30,7 +30,6 @@ header .ul-upper-header {
   height: 22px;
   width: 481px;
   float: right;
-  margin-top: -35px;
 }
 header .ul-upper-header li {
   display: inline-block;
@@ -56,7 +55,8 @@ header .ul-upper-header select {
 }
 header .lower-header {
   height: 50px;
-  margin-top: 35px;
+  margin-top: 20px;
+  float: left;
 }
 header .lower-header img {
   width: 90px;
@@ -198,7 +198,6 @@ header .lower-header li i {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
 }
 #simple-digital-art .introbg .player {
   width: 200px;
