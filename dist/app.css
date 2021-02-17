@@ -190,3 +190,12 @@ header .lower-header li i {
   font-size: 18px;
   margin-top: 15px;
 }
+#simple-digital-art .introbg {
+  width: 1200px;
+  height: 600px;
+  margin: 60px auto;
+  background-image: url("../img/intro-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -255,19 +255,31 @@ body {
   //End jumbotron
 
   // Simple digital art
-  #simple-digital-art{
-    height: 700px;
-    text-align: center;
-    margin-top: 70px;
 
-    h2{
-      font-size: 38px;
-      font-weight: bold;
-    }
+    #simple-digital-art{
+      height: 700px;
+      text-align: center;
+      margin-top: 70px;
 
-    p{
-      font-size: 18px;
-      margin-top: 15px;
+
+      h2{
+        font-size: 38px;
+        font-weight: bold;
+      }
+
+      p{
+        font-size: 18px;
+        margin-top: 15px;
+      }
+
+      .introbg{
+        width: 1200px;
+        height: 600px;
+        margin: 60px auto;
+        background-image: url($digitArtBg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
     }
-  }
-  //end simple digital art
+    //end simple digital art
