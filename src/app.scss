@@ -21,7 +21,47 @@ body {
     line-height: 1.5;
 }
 
-header{
-  height: 95px;
-  background-color: $headerColor;
-}
+.container{
+  @include container;
+  background-color: red;
+  }
+
+  header{
+    height: 95px;
+    background-color: $headerColor;
+    padding: 10px;
+
+    .ul-upper-header{
+      height: 22px;
+      width: 481px;
+      float: $float-r;
+
+
+
+      li{
+        display: inline-block;
+        list-style: $liStyle;
+        padding-right: $liPaddingRight;
+
+
+        i{
+          color: $customLightBlue;
+          margin-right: $iconsMarginRight;
+          }
+
+
+
+        a{
+          text-decoration: none;
+          color: $upperHeaderHrefColor;
+
+          &:hover{
+            color: #fff;
+            text-decoration: underline;
+          }
+        }
+
+
+      }
+    }
+  }

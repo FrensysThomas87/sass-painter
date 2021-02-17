@@ -10,7 +10,37 @@ body {
   line-height: 1.5;
 }
 
+.container {
+  width: 1200px;
+  min-width: 1200px;
+  margin: 0 auto;
+  background-color: red;
+}
+
 header {
   height: 95px;
   background-color: #101010;
+  padding: 10px;
+}
+header .ul-upper-header {
+  height: 22px;
+  width: 481px;
+  float: right;
+}
+header .ul-upper-header li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 40px;
+}
+header .ul-upper-header li i {
+  color: #009CFF;
+  margin-right: 5px;
+}
+header .ul-upper-header li a {
+  text-decoration: none;
+  color: #989898;
+}
+header .ul-upper-header li a:hover {
+  color: #fff;
+  text-decoration: underline;
 }
