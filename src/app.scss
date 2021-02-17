@@ -133,12 +133,9 @@ body {
 
 
     .container{
-
-
-
       .row{
         width: 80%;
-        height: 700px;
+        height: 450px;
         // background-color: red;
         margin-left: 400px;
         display: $dispFlex;
@@ -235,10 +232,24 @@ body {
             }
           }
         }
-
-
-
       }
+
+      .end-jumbotron{
+        margin-left: 427px;
+
+        li{
+          @include headerLi;
+          padding-right: 40px;
+          font-size: 20px;
+
+          a{
+            text-decoration: none;
+            color: #000;
+            cursor: $cursPointer;
+          }
+        }
+      }
+
     }
-}
+  }
   //End jumbotron

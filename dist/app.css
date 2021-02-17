@@ -84,7 +84,7 @@ header .lower-header li i {
 }
 #jumbotron .container .row {
   width: 80%;
-  height: 700px;
+  height: 450px;
   margin-left: 400px;
   display: flex;
   justify-content: space-between;
@@ -161,4 +161,18 @@ header .lower-header li i {
   margin-top: 15px;
   cursor: pointer;
   text-align: center;
+}
+#jumbotron .container .end-jumbotron {
+  margin-left: 427px;
+}
+#jumbotron .container .end-jumbotron li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 40px;
+  font-size: 20px;
+}
+#jumbotron .container .end-jumbotron li a {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
 }
