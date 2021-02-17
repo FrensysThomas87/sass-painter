@@ -77,3 +77,60 @@ header .lower-header li i {
   color: #989898;
   font-size: 8px;
 }
+
+#jumbotron {
+  height: 500px;
+  background-image: url("../img/hero-pe-8.jpg");
+}
+#jumbotron .container .row {
+  width: 80%;
+  height: 700px;
+  margin-left: 400px;
+  display: #jumbotron .container .row flex;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+#jumbotron .container .row .features {
+  width: 400px;
+  margin-left: 31px;
+  margin-top: 24px;
+}
+#jumbotron .container .row .features .jumbo-title {
+  font-size: 210%;
+}
+#jumbotron .container .row .features .jumbo-title em {
+  color: #B936B9;
+}
+#jumbotron .container .row .features > span:nth-child(3) {
+  font-size: 150%;
+}
+#jumbotron .container .row .features ul {
+  margin-top: 20px;
+  font-size: 140%;
+}
+#jumbotron .container .row .features ul li {
+  list-style: none;
+}
+#jumbotron .container .row .features ul li i {
+  color: #989898;
+  margin-right: 5px;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+#jumbotron .container .row .features .download-button {
+  width: 250px;
+  border: 2px solid #000;
+  margin-top: 20px;
+  padding: 5px 15px;
+  position: relative;
+}
+#jumbotron .container .row .features .download-button a {
+  text-decoration: none;
+  color: #000;
+}
+#jumbotron .container .row .features .download-button a > i {
+  position: absolute;
+  right: 15px;
+  font-size: 25px;
+  bottom: 10px;
+}

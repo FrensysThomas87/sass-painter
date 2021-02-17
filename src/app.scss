@@ -68,7 +68,7 @@ body {
 
         a{
           text-decoration: none;
-          color: $headerGrey;
+          color: $grey;
 
           &:hover{
             color: #fff;
@@ -81,7 +81,7 @@ body {
 
       select{
         vertical-align: top;
-        
+
         margin-left: 445px;
         margin-top: -19px;
       }
@@ -113,7 +113,7 @@ body {
         }
 
         i{
-          color: $headerGrey;
+          color: $grey;
           font-size: 8px;
         }
 
@@ -124,3 +124,85 @@ body {
     }
     //end lower header
   }
+
+  // jumbotron
+  #jumbotron{
+
+    height: 500px;
+    background-image: url($jumbotronBg);
+
+
+    .container{
+
+
+
+      .row{
+        width: 80%;
+        height: 700px;
+        // background-color: red;
+        margin-left: 400px;
+        display: &$dispFlex;
+        justify-content: space-between;
+        padding-top: 15px;
+
+        .features{
+          width: 400px;
+          margin-left: 31px;
+          margin-top: 24px;
+
+          .jumbo-title{
+            font-size: 210%;
+
+            em{
+              color:$fuxia;
+            }
+          }
+
+          >span:nth-child(3){
+            font-size: 150%;
+          }
+
+          ul{
+            margin-top: 20px;
+            font-size: 140%;
+
+            li{
+              list-style:$liStyle;
+
+              i{
+                color: $grey;
+                margin-right: 5px;
+                font-size: 12px;
+                margin-bottom: 15px;
+              }
+            }
+          }
+
+          .download-button{
+            width: 250px;
+            border: 2px solid #000;
+            margin-top: 20px;
+            padding: 5px 15px;
+            position: relative;
+
+            a{
+              text-decoration: $hrefTextDecoration;
+              color: #000;
+
+
+              >i{
+                position: absolute;
+                right: 15px;
+                font-size: 25px;
+                bottom: 10px;
+              }
+            }
+          }
+
+
+        }
+
+      }
+    }
+}
+  //End jumbotron
