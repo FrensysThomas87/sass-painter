@@ -141,12 +141,12 @@ body {
         height: 700px;
         // background-color: red;
         margin-left: 400px;
-        display: &$dispFlex;
+        display: $dispFlex;
         justify-content: space-between;
         padding-top: 15px;
 
         .features{
-          width: 400px;
+
           margin-left: 31px;
           margin-top: 24px;
 
@@ -201,6 +201,42 @@ body {
 
 
         }
+
+        .buy-now{
+          width: 400px;
+          height: 400px;
+          background-color: $customBlack;
+          padding: 20px 15px;
+          display: $dispFlex;
+          justify-content: space-between;
+
+          .price{
+            padding-top:20px;
+
+            >span{
+              font-size: 26px;
+              color: #fff;
+            }
+
+            >span:nth-of-type(2){
+              color: $grey;
+              font-size: 15px;
+            }
+
+            .buy-button{
+              width: 140px;
+              background-color: $customLightBlue;
+              color: #fff;
+              padding: 5px 20px 7px;
+              display: inline-block;
+              margin-top: 15px;
+              cursor: $cursPointer;
+              text-align: center;
+            }
+          }
+        }
+
+
 
       }
     }

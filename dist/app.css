@@ -86,12 +86,11 @@ header .lower-header li i {
   width: 80%;
   height: 700px;
   margin-left: 400px;
-  display: #jumbotron .container .row flex;
+  display: flex;
   justify-content: space-between;
   padding-top: 15px;
 }
 #jumbotron .container .row .features {
-  width: 400px;
   margin-left: 31px;
   margin-top: 24px;
 }
@@ -133,4 +132,33 @@ header .lower-header li i {
   right: 15px;
   font-size: 25px;
   bottom: 10px;
+}
+#jumbotron .container .row .buy-now {
+  width: 400px;
+  height: 400px;
+  background-color: #191919;
+  padding: 20px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+#jumbotron .container .row .buy-now .price {
+  padding-top: 20px;
+}
+#jumbotron .container .row .buy-now .price > span {
+  font-size: 26px;
+  color: #fff;
+}
+#jumbotron .container .row .buy-now .price > span:nth-of-type(2) {
+  color: #989898;
+  font-size: 15px;
+}
+#jumbotron .container .row .buy-now .price .buy-button {
+  width: 140px;
+  background-color: #009CFF;
+  color: #fff;
+  padding: 5px 20px 7px;
+  display: inline-block;
+  margin-top: 15px;
+  cursor: pointer;
+  text-align: center;
 }
